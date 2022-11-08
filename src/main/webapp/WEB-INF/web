@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/java2e" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Servlet1</servlet-name>
+  	<display-name>Servlet1</display-name>
+  	<description></description>
+  	<servlet-class>Servlet1</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Servlet2</servlet-name>
+  	<display-name>Servlet2</display-name>
+  	<description></description>
+  	<servlet-class>Servlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Servlet1</servlet-name>
+  	<url-pattern>/Servlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Servlet2</servlet-name>
+  	<url-pattern>/Servlet2</url-pattern>
+  </servlet-mapping>
+</web-app>
+
+<!-- La versión de la aplicación web debe ser 4.0 o mayor para utilizar expresion languaje. Versión 2.3:
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+ -->
